@@ -1,0 +1,22 @@
+{
+  "name": "campusballot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node scripts/demo.js",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test test/*.test.js",
+    "compile": "node scripts/compile.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  },
+  "devDependencies": {
+    "ganache": "^7.9.2",
+    "solc": "^0.8.30",
+    "vite": "^7.1.0"
+  }
+}

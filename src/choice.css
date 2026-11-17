@@ -1,0 +1,6 @@
+.choice{display:flex;align-items:center;gap:14px;border:1px solid #dce5ed;border-radius:11px;padding:14px 15px;background:#fbfcfe;cursor:pointer}
+.choice:hover{border-color:#18a78c;background:#f2fbf8}
+.choice input{accent-color:#0d806e;width:18px;height:18px}
+.choice span{display:grid;gap:3px}
+.choice b{font-size:14px}
+.choice small{font-size:11px;color:#8292a2}
